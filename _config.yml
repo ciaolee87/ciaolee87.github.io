@@ -1,7 +1,7 @@
 # Site
-title:              Ciao's Devlife
-bio:                'Hello'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Ciao's Dev-life
+bio:                '안녕하세요. 풀스텍 개발자 이준혁입니다.'
+description:        "Java, swift, python, typescript and more..."
 locale:             ko_KR
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -34,16 +34,16 @@ sass:
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+# analytics-id:       "default"
+# twitter:            default
+# facebook:           default
+# instagram:          default
+# github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           서울특별시 강서구
+phone:              010-8680-****
+email:              ciaolee87@gmail.com
 
 # Gems
 gems:
