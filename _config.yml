@@ -1,8 +1,8 @@
 # site settings
-title: Ciao's garage
+title: Ciao
 subtitle: Full stack engineer
 email: ciaolee87@gmail.com
-description: 안녕하세요. 초급 풀스택 개발자 이준혁 입니다.
+description: 안녕하세요. 풀스택 개발자 이준혁 입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
