@@ -1,63 +1,64 @@
-# Site
-title:              Ciao's Dev-life
-bio:                '안녕하세요. 풀스텍 개발자 이준혁입니다.'
-description:        "Java, swift, python, typescript and more..."
-locale:             ko_KR
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+# Site wide configuration
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
+title: "Ciao's garage"
+description: "차오의 개발자 이야기"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: kr
+url:
+feed:
+#  path: atom.xml
 
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+# Jekyll configuration
+
 sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   default
-
-# Social
-# analytics-id:       "default"
-# twitter:            default
-# facebook:           default
-# instagram:          default
-# github:             default
-
-# personal
-location:           서울특별시 강서구
-phone:              010-8680-****
-email:              ciaolee87@gmail.com
-
-# Gems
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
 gems:
-  - jekyll-mentions
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
+  - jekyll-feed
 
-paginate: 6
-paginate_path: "/blog/page:num/"
 
-jekyll-mentions:
-    base_url: https://github.com
+# Site owner
+owner:
+  name: JunHyeok Lee
+  email: ciaolee87@gmail.com
+  twitter:
+  google:
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname:
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
