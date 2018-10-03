@@ -1,8 +1,9 @@
 ---
 layout: deep_learning
 title: Deep Learning
+description: 딥러닝 스터디
 nav-menu: true
 ---
 
 
-<h1>딥러닝 페이지 입니다.</h1>
+<!-- deep_learning.html 레이아웃 페이지 -->

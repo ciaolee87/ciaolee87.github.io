@@ -1,11 +1,9 @@
 ---
 layout: home
-title: Home
+title: Garage
 landing-title: 'Ciao's garage'
 description: 'Full stack engineer'
 image: null
 author: null
-show_tile: false
+show_tile: true
 ---
-
-안녕하세요. Full stack 개발자 이준혁 입니다.
