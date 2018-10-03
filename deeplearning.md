@@ -2,6 +2,7 @@
 layout: page
 title: Deep Learning
 nav-menu: true
+
 ---
 
 
