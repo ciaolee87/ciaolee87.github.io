@@ -16,7 +16,7 @@ phone: (010) 8680 - ****
 # homepage tiles
 # 첫 페이지(index.html)에 표시될 포스트
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 1
 
 # social settings
 500px_url:
