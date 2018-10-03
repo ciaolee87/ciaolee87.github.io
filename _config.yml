@@ -1,64 +1,36 @@
-# Site wide configuration
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-title: "Ciao's garage"
-description: "차오의 개발자 이야기"
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: kr
-url:
-feed:
-#  path: atom.xml
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Jekyll configuration
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
 
 sass:
-  sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
-highlighter: rouge
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-
-
-# Site owner
-owner:
-  name: JunHyeok Lee
-  email: ciaolee87@gmail.com
-  twitter:
-  google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
-
-
-include:
-  - .htaccess
-exclude:
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
