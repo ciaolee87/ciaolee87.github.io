@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Garage
+title: home
 landing-title: 'Ciao's garage'
 description: 'Full stack engineer'
 image: null
