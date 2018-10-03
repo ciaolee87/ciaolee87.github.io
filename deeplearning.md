@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: deep_learning
 title: Deep Learning
 nav-menu: true
-
 ---
 
 
