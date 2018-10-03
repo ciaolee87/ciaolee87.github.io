@@ -3,5 +3,5 @@ layout: ios
 title: iOS  
 description: iOS [Swift] 스터디  
 nav-menu: true  
-show_tile:   
+show_tile: true
 ---
