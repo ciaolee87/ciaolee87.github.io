@@ -34,11 +34,11 @@ sass:
 disqus_shortname:   default
 
 # Social
- analytics-id:       "default"
- twitter:            default
- facebook:           default
- instagram:          default
- github:             ciaolee87
+# analytics-id:       "default"
+# twitter:            default
+# facebook:           default
+# instagram:          default
+# github:             default
 
 # personal
 location:           서울특별시 강서구
