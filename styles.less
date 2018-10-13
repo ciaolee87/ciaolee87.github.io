@@ -1,0 +1,13 @@
+.markdown-preview.markdown-preview {
+  color: #CCC;
+  background-color: #292929;
+  // changes the writing color in the tables
+  th,td {
+   color: #292929;
+  }
+  // changes the writing color in the inline code
+  code {
+  color: #292929;
+  background-color: contrast(@syntax-background-color, lighten(@syntax-background-color, 8%), darken(@syntax-background-color, 6%));
+  }
+}
