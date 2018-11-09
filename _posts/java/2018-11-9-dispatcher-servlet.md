@@ -1,24 +1,31 @@
 ---
 layout: post  
-title: 1. Dispatcher servlet
+title: 1. Dispatcher servlet 개요
 description: java
 ---
 
-### 1. MNIST 사용하기
-**MNIST : 28 X 28 픽셀의 0~9 까지의 손글씨 이미지**
+## 1. Dispatcher Servelt
+스프링 프레임워크의 프론트 컨트롤러, 서버로 들어오는 다양한 요청을 처리해준다.  
+1. Dispatcher servlet  
+        1. HandlerMapping 을 통하여 Controller 선택  
+                > - BeanNameUrlHandlerMapping  
+                > - DefaultAnnotationHandlerMapping  
+        2. HandlerAdapter 를 통하여 Controller 의 메소드 실행  
+                > - HttpRequestHandlerAdapter  
+                > - SimpleControllerHandlerAdapter  
+                > - AnnotationMethodHandlerAdapter  
+  
+2. Controller  
+        1. HandlerExceptionResolver 를 통하여 예외 처리  
+                > - AnnotationMethodHandlerExceptionResolver  
+                > - ResponseStatusExceptionResolver  
+                > - DefaultHandlerExceptionResolver  
+  
+3. Model  
+4. Controller  
+5. Dispatcher servlet  
+        1. ViewResolver 를 통하여 View 선택  
+6. View  
+7. Dispatcher servlet  
 
-책에서 제공하는 mnist.py 를 사용한다. [책 참조]
-> ~~~
-> (훈련이미지, 훈련 정답), (시험 이미지, 시험 정답) 
->    = load_mnist(normalize: bool, faltten: bool, one_hot_label: bool)
-> 
-> **입력 파라미터**
-> 1. normalize
->   - 이미지 입력값을 정규화 한다.(0 ~ 1 사이값)
-> 
-> 2. faltten
->   - 이미지의 행렬화 구조, true - (1 X 784) 행렬, false - (1 X 28 X 28) 행렬
-> 
-> 3. one_hot_label
->   - 결과값의 구조, true - [0,0,0,0,0,0,0,1,0,0] 형태, false - 정답 7
-> ~~~
+
