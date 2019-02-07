@@ -4,5 +4,5 @@ title: Ionic
 description: 아이오닉 스터디  
 nav-menu: true  
 show_tile: true  
-image: assets/bgs/ionic.png
+image: assets/images/bg/ionic.png
 ---
