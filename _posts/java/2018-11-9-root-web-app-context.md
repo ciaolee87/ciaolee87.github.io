@@ -8,7 +8,7 @@ description: java
 
 
 1. 어플리케이션 컨텍스트 로더 리스너 등록
-~~~
+~~~xml
 
 <!-- Context loader 등록 -->
 <listener>
@@ -24,7 +24,7 @@ description: java
 
 
 2. Dispatcher Servlet 등록
-~~~
+~~~xml
 <!-- Dispatcher servlet 등록 -->
 <servlet>
         <servlet-name>dispatcher</servlet-name>

@@ -10,7 +10,7 @@ Main storyboard file base name : ~~~   <- 이 부분 삭제
 ~~~  
 
 ### 2. AppDelegate 에서 윈도우를 지정한다
-~~~
+~~~swift
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 

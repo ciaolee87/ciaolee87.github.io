@@ -31,6 +31,7 @@ slack_url:
 twitter_url:
 # build settings
 markdown: kramdown
+highlighter: rouge
 
 sass:
   style: compressed
