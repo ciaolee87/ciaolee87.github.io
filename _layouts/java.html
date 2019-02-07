@@ -15,7 +15,7 @@
 			{% for post in site.posts %}
 			{% if post.description == 'java' %}
 			<header class="major">
-				<h1>{{ post.title }}</h1>
+				<h1>[{{ post.description }}] {{ post.title }}</h1>
 			</header>
 			{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}"
 			                                                 alt=""/></span>{% endif %}

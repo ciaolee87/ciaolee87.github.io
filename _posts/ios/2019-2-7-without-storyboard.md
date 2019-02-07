@@ -4,8 +4,6 @@ title: 스토리보드 없이 앱 시작하기
 description: ios
 ---
 
-## 스토리 보드 없이 앱 실행하기
-
 ### 1. info.plist 에서 스토리보드를 불러오는 설정값을 삭제한다
 ~~~
 Main storyboard file base name : ~~~   <- 이 부분 삭제
