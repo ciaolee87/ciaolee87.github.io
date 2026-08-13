@@ -9,7 +9,7 @@ echo:
 server:
 	rm -rf docs;
 	hugo server;
- push:
+push:
 	rm -rf docs;
 	hugo;
 	git add .;
