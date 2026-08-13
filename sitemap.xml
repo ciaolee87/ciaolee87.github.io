@@ -5,7 +5,7 @@
     <loc>/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/dev/cpp/2026-08-13/</loc>
+    <loc>/post/cpp/2026-08-13/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/cmake/</loc>
@@ -14,7 +14,13 @@
     <loc>/tags/cpp/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/tags/dev/</loc>
+    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/raylib/2026-08-13/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -25,6 +31,8 @@
   </url><url>
     <loc>/tags/vcpkg/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/archive/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url>
