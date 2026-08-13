@@ -1,11 +1,17 @@
-# ide
+# tool
 .idea
-.vs
 .fleet
+.obsidian
 .vscode
+.vs
 
 # mac
 DS_Store
+.DS_Store
+
+# hugo
+/resources/
+.hugo_build.lock
 
 # env
 .env
