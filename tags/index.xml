@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on </title>
+		<link>/tags/</link>
+		<description>Recent content in Tags on </description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cmake</title>
+				<link>/tags/cmake/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/cmake/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cpp</title>
+				<link>/tags/cpp/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/cpp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Toolchain</title>
+				<link>/tags/toolchain/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/toolchain/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Vcpkg</title>
+				<link>/tags/vcpkg/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/vcpkg/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
