@@ -4,8 +4,9 @@ BLOG:=blog
 echo:
 	echo $(BLOG);
 server:
+	rm -rf docs;
 	hugo server;
-publish:
+push:
 	rm -rf docs;
 	hugo;
 	git add .;

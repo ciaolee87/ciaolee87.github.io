@@ -7,7 +7,7 @@ pagination.pagerSize = 10
 
 # Required for Chroma and the custom syntax highlighting.
 [markup.highlight]
-noClasses = true
+noClasses = false
 
 [params]
 language= "kr"
@@ -101,12 +101,12 @@ logoHomeLink = "/"
 [[languages.kr.menu.main]]
 identifier = "raylib"
 name = "raylib"
-url = "/archive/raylib"
+url = "/post/raylib"
 
 [[languages.kr.menu.main]]
 identifier = "cpp"
 name = "cpp"
-url = "/archive/cpp"
+url = "/post/cpp"
 
 
 

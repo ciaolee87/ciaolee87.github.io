@@ -5,35 +5,34 @@
     <loc>/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/cpp/2026-08-13/</loc>
-    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/cmake/</loc>
-    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/cpp/</loc>
+    <loc>/post/cpp/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dev/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/game/</loc>
+    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/post/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/raylib/2026-08-13/</loc>
+    <loc>/post/raylib/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/cmake/</loc>
+  </url><url>
+    <loc>/tags/cpp/</loc>
+  </url><url>
+    <loc>/tags/raylib/</loc>
+  </url><url>
     <loc>/tags/toolchain/</loc>
-    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/vcpkg/</loc>
-    <lastmod>2026-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/archive/</loc>
-  </url><url>
-    <loc>/categories/</loc>
   </url>
 </urlset>
